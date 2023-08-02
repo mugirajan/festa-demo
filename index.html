@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="festa.css">
+	<style type="text/css">
+      
+    </style>
+</head>
+<body>
+
+<section class="why-we">
+<div class="about-header-section">
+  <div class="inner-about-container">
+    <h3>Welcome to Festa Solar</h3>
+	<h1>Why we are expert</h1>
+    <p class="about-text">
+     Festa Solar Private Limited (FSPL) started in 2018 which is a rapidly growing ‘Responsible Energy’ company
+	 developing advanced renewable power generation solutions with a 
+	 focused approach on standard and turnkey projects providing solutions.
+    </p>
+	 <div class="float-about-icon">
+		<div class="inner-about-box">
+		<div class="sib-about-box">
+			<span class="about-icon"><i class="fa fa-line-chart"></i></span>
+			<h3>Our Work Growth</h3>	
+		</div>
+		</div>
+		<div class="inner-about-box">
+		<div class="sib-about-box">
+			<span class="about-icon"><i class="fa fa-pie-chart"></i></span>
+			<h3>Our Employee Growth</h3>	
+		</div>
+		</div>
+		<div class="inner-about-box">
+		<div class="sib-about-box">
+			<span class="about-icon"><i class="fa fa-address-card"></i></i></span>
+			<h3>1500 Employed</h3>	
+		</div>	
+		</div>
+		<div class="inner-about-box">
+		<div class="sib-about-box">
+			<span class="about-icon"><i class="fa fa-heartbeat"></i></span>
+			<h3>Service Management</h3>	
+		</div>
+		</div>
+  </div>
+    
+	
+  <button type="submit" class="custom-about-button"><span>Explore more +</span></button>
+ 
+</div>
+ 
+</div>
+</section>
+<section class="partners">
+<h1>Proud Partners</h1>
+<div class="lorem-sec">
+			<div class="lorem-box">
+				<div class="co-lorem-box">
+					<img src="adani solar.png">
+				</div>
+			</div>
+			<div class="lorem-box">
+				<div class="co-lorem-box">
+					<img src="deye.png">
+				</div>
+			</div>
+			<div class="lorem-box">
+				<div class="co-lorem-box">
+					<img src="adani solar.png">
+				</div>
+			</div>
+			<div class="lorem-box">
+				<div class="co-lorem-box">
+					<img src="deye.png">
+				</div>
+			</div>
+		</div>
+</section>
+<section class="num-scroll">
+<div class="container-num one">
+  <div class="grid-cards">
+    <div class="num-card num-card-body">
+      <div class="card-body card-body-one">
+        <h3 class="title-card">
+          25+
+        </h3>
+        <p>YEARS OF EXPERIENCE
+        </p>
+      </div>
+    </div>
+    <div class="num-card num-second-card">
+      <div class="card-body card-body-two">
+        <h3 class="title-card">
+          15+
+        </h3>
+        <p>HAPPY GROUP CLIENT
+        </p>
+      </div>
+    </div>
+    <div class="num-card num-third-card">
+      <div class="card-body card-body-three">
+        <h3 class="title-card">
+          45+
+        </h3>
+		 <p>PROJECTS
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+<section class="timeline">
+  <div class="timeline-info">
+    <img width="50" height="50" src="christmas_2012_46.jpg" alt="" />
+    <h2>About Group and Our Journey</h2>
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+  </div>
+
+  <ol>
+    <li>
+      <div class="timeline2">
+        <time>1966</time>Started our Journey with MK Auto components Pvt Limited
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>1998</time>Sarathy Auto components
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2002</time>Gokul Autotech
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2004</time>Winmach Automations Private Limited   
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2005</time> MK Auto components 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2010</time> Chennai Institute of 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2018</time> 300KW Rooftop 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2018</time> Festa Solar Pvt Ltd
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2021</time>6MW Solar Ground Mount (Completed) 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2022</time>Operations started from Feb 2022
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2023</time>Completed – 1st year of Successful Start 
+      </div>
+    </li>
+    <li></li>
+  </ol>
+  </div>
+</section>
+
+
+<script>
+// VARIABLES
+const elH = document.querySelectorAll(".timeline li > div");
+
+// START
+window.addEventListener("load", init);
+
+function init() {
+  setEqualHeights(elH);
+}
+
+// SET EQUAL HEIGHTS
+function setEqualHeights(el) {
+  let counter = 0;
+  for (let i = 0; i < el.length; i++) {
+    const singleHeight = el[i].offsetHeight;
+
+    if (counter < singleHeight) {
+      counter = singleHeight;
+    }
+  }
+
+  for (let i = 0; i < el.length; i++) {
+    el[i].style.height = `${counter}px`;
+  }
+}
+</script>
+</body>
+</html>
